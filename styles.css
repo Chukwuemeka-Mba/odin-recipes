@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: coral;
+    padding: 16px;
+    margin: 0px;
+}
+
+.list {
+    padding-left: 10px;
+    background-color: sandybrown;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    list-style-type: decimal;
+    padding: 16px;
+    font-size: 23px;
+    font-style: italic;
+}

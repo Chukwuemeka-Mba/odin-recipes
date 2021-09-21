@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    color: cornsilk;
+    padding: 16px;
+    margin: 0px;
+}
+
+img, .image {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border-color: black;
+    border-width: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: coral;
+    padding: 16px;
+    color: cornsilk;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
